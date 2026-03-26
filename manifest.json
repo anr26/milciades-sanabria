@@ -1,8 +1,11 @@
 {
-  "name": "PadronApp",
-  "short_name": "PadronApp",
+  "name": "Consulta Padrón ANR 2026",
+  "short_name": "Padrón ANR",
+  "description": "App de consulta rápida de local de votación para la campaña de Milciades Sanabria.",
+  "id": "com.anr26.padron.milciades",
   "start_url": "./index.html",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#d10000",
   "icons": [
@@ -10,13 +13,28 @@
       "src": "padronapp.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "padronapp.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
+    },
+    {
+      "src": "padronapp.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "padronapp.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Pantalla de Inicio"
     }
   ]
 }
